@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://MiMTSSCafeteria" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Choose-your-own-PBIS-adventure series: Featuring the Cafeteria!</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5mLU9LbZmz6" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Welcome</name>
+			<description lang="und">Welcome</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6CqmYI45T19" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pre-test Intro</name>
+			<description lang="und">Pre-test Intro</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5Y7jQyT6f5I" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pre-test Video</name>
+			<description lang="und">Pre-test Video</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6FYhObpxaie" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Pre-test</name>
+			<description lang="und">Pre-test</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6FYhObpxaie/5sAgbYZn0PN" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Rank the following list of ways to change the playground behavior in order of effectiveness from most effective to least effective:</name>
+			<description lang="und">Rank the following list of ways to change the playground behavior in order of effectiveness from most effective to least effective:</description>
+			<interactionType>matching</interactionType>
+			<source>
+				<component>
+					<id>statement_6ezoVLZhSzg</id>
+					<description lang="und">Drop 6 - Rank 6</description>
+				</component>
+				<component>
+					<id>statement_6Y2B6NvJKRD</id>
+					<description lang="und">Drop 5 - Rank 5</description>
+				</component>
+				<component>
+					<id>statement_5gnFrEm3ZeW</id>
+					<description lang="und">Drop 4 - Rank 4</description>
+				</component>
+				<component>
+					<id>statement_62SalPVHT4z</id>
+					<description lang="und">Drop 3 - Rank 3</description>
+				</component>
+				<component>
+					<id>statement_5zUEgUxyIwd</id>
+					<description lang="und">Drop 2 - Rank 2</description>
+				</component>
+				<component>
+					<id>statement_6JFXddkTnPI</id>
+					<description lang="und">Drop 1 - Rank 1</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_5i6TlxzuROk</id>
+					<description lang="und">Drag 6 nocontrolpositive1 - Teach and practice how to use equipment and how to disagree</description>
+				</component>
+				<component>
+					<id>choice_6UWH7TvNsLS</id>
+					<description lang="und">Drag 5 nocontrolpunitive2 - Loss of time on playground for arguing or not using equipment correctly</description>
+				</component>
+				<component>
+					<id>choice_6oQ7ojEdyef</id>
+					<description lang="und">Drag 4 nocontrol2 - Parents need to teach their children how to respect authority</description>
+				</component>
+				<component>
+					<id>choice_5ss6A8Ntt5g</id>
+					<description lang="und">Drag 3 nocontrolpositive2 - Structure the playground into zones and rotate by grade levels</description>
+				</component>
+				<component>
+					<id>choice_6CmxjKsXnmI</id>
+					<description lang="und">Drag 2 nocontrolpunitive2 - Give suspensions to students for screaming or fighting</description>
+				</component>
+				<component>
+					<id>choice_6BHJrA7mTNo</id>
+					<description lang="und">Drag 1 nocontrol1 - The students know what to do. They just need to choose to behave</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5X5VxKxMW2i" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Begin Your Adventure!</name>
+			<description lang="und">Begin Your Adventure!</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6P9WMQB8RWj" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Begin Your Adventure!</name>
+			<description lang="und">Begin Your Adventure!</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5lAsPO0DW4j" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS 01</name>
+			<description lang="und">Full PBIS 01</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5cpoDDFshSk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS Q 1</name>
+			<description lang="und">Full PBIS Q 1</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5cpoDDFshSk/6AdHYeICVhQ" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5Za448h3X4k</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_661mzUJeIiT</id>
+					<description lang="und">The principal and staff start brainstorming possible solutions to the issues in the cafeteria.</description>
+				</component>
+				<component>
+					<id>choice_5Za448h3X4k</id>
+					<description lang="und">The principal acknowledges the concerns and asks the School Leadership Team (SLT) to analyze referrals from the cafeteria to see if there is a problem and to define the problem with precision based on the data. The SLT will bring this back to the full staff during next week's meeting.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6EJgDhawXcd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS 02</name>
+			<description lang="und">Full PBIS 02</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6qSfdW9cgwF" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS Q 2</name>
+			<description lang="und">Full PBIS Q 2</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6qSfdW9cgwF/6HkuL9clKEj" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6BgwkRYA7Hc</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6BgwkRYA7Hc</id>
+					<description lang="und">Staff rally around the precise problem statement and discuss how to bring in the voices of students as well as the cafeteria staff.</description>
+				</component>
+				<component>
+					<id>choice_6cCa8H4W1nC</id>
+					<description lang="und">The staff agree with the precise problem statement and ask the SLT to solve the problem and let them know what's going to happen next.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6j3SvtLPmzd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS Q 3</name>
+			<description lang="und">Full PBIS Q 3</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6j3SvtLPmzd/5csTohb14gL" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6Sfg8HAlPcn</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6Sfg8HAlPcn</id>
+					<description lang="und">The staff agree that this is an issue that involves everyone, including the food service staff and the students. The SLT agrees to do some initial brainstorming with input from staff and students and will bring a plan back to the next staff meeting the following week.</description>
+				</component>
+				<component>
+					<id>choice_5Wuu2xitSeH</id>
+					<description lang="und">The staff tell the SLT that they should come up with a plan to fix things in the cafeteria.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6FjNPSOsANk" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS 04</name>
+			<description lang="und">Full PBIS 04</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6BiQpwHjclO" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS Q 4</name>
+			<description lang="und">Full PBIS Q 4</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6BiQpwHjclO/6YtoP5xbfqv" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6AApP9J4Cxh</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6AApP9J4Cxh</id>
+					<description lang="und">The increase in feedback is focused on problem behavior.</description>
+				</component>
+				<component>
+					<id>choice_63RQZ2qXfar</id>
+					<description lang="und">The increase in feedback is focused on desired behavior.</description>
+				</component>
+				<component>
+					<id>choice_6XMPvdpprkw</id>
+					<description lang="und">The increase in feedback is focused on both problem behavior and desired behavior.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6T8H2p4I0cK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS 05</name>
+			<description lang="und">Full PBIS 05</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/63Io6wX9WFB" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS Q 5</name>
+			<description lang="und">Full PBIS Q 5</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/63Io6wX9WFB/5ufXhK5n2Gv" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6r7YuEo2XOt</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5Vfe32cF0C5</id>
+					<description lang="und">After discussion, the lunchroom supervisors and teachers decide that only environmental changes would be necessary.</description>
+				</component>
+				<component>
+					<id>choice_6QiDXXrV8BD</id>
+					<description lang="und">After discussion, the lunchroom supervisors and teachers decide that only re-teaching would be necessary.</description>
+				</component>
+				<component>
+					<id>choice_6r7YuEo2XOt</id>
+					<description lang="und">After discussion, the lunchroom supervisors and teachers decide to implement both suggested additional plans (environmental changes and also re-teaching)</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6kR6nfxtz0z" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS 01</name>
+			<description lang="und">Basic PBIS 01</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6ZHwcfGANw7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS Q 1</name>
+			<description lang="und">Basic PBIS Q 1</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6ZHwcfGANw7/5kOAxqtc7wb" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5xWUE0nCtJj</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_639rHyalyiE</id>
+					<description lang="und">Despite all of the rumbling, the staff meeting continued on as planned, while many staff continued to quietly chat with each other about the horrible behavior of students in the cafeteria and lack of response to "stop it."</description>
+				</component>
+				<component>
+					<id>choice_5xWUE0nCtJj</id>
+					<description lang="und">Hearing all of the persistent rumbling about the student's behavior in the cafeteria, the building administrator decided that action was needed. She engaged staff in discussion and they decided to take some action.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6Nsi3MYNFjQ" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS Q1 Incorrect Feedback</name>
+			<description lang="und">Basic PBIS Q1 Incorrect Feedback</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6R9Ok2GlaRt" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS 02</name>
+			<description lang="und">Basic PBIS 02</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5ZTfekrSGJB" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS Q 2</name>
+			<description lang="und">Basic PBIS Q 2</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5fSbwNzrNJb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS Q2 Selection 1</name>
+			<description lang="und">Basic PBIS Q2 Selection 1</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5nwAcNHG7dc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS Q2 Selection 2</name>
+			<description lang="und">Basic PBIS Q2 Selection 2</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6mEH2qOU2wX" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS 01</name>
+			<description lang="und">Without PBIS 01</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5tgGk8f27U8" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS Q 1</name>
+			<description lang="und">Without PBIS Q 1</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5tgGk8f27U8/6qTTNMznTR6" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Pick One</name>
+			<description lang="und">Pick One</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5rUGKC5qM12</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6iGzoPgsGmy</id>
+					<description lang="und">Despite all of the rumbling the staff meeting continued on as planned. While many staff continued to quietly chat with each other about the horrible behavior of students in the cafeteria and lack of response to "stop it”.</description>
+				</component>
+				<component>
+					<id>choice_5rUGKC5qM12</id>
+					<description lang="und">Hearing all of the persistent rumbling about the student’s behavior in the cafeteria the building administrator decided that action was needed and engaged staff in discussion. They decided to take some action.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5rviXkaNF4f" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS Q 2</name>
+			<description lang="und">Without PBIS Q 2</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5iagrIZlyu7" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS Q 3</name>
+			<description lang="und">Without PBIS Q 3</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6nb8wxJuKIg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS 04</name>
+			<description lang="und">Without PBIS 04</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6DkYZOtji8P" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS Q 4</name>
+			<description lang="und">Without PBIS Q 4</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5cpd4QltltG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS 05</name>
+			<description lang="und">Without PBIS 05</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/63goGZUOtYq" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Conclusion</name>
+			<description lang="und">Conclusion</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6dRv8g9TgRu" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Full PBIS Conclusion</name>
+			<description lang="und">Full PBIS Conclusion</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6ZqbuNOHhl2" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Basic PBIS Conclusion</name>
+			<description lang="und">Basic PBIS Conclusion</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6oQS8PX0TYx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS Conclusion</name>
+			<description lang="und">Without PBIS Conclusion</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/61y9EA6x1tW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Post-test Introduction</name>
+			<description lang="und">Post-test Introduction</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5o7t1GBEWWy" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Post-test Video</name>
+			<description lang="und">Post-test Video</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5qAgzqu7SKd" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Post-test</name>
+			<description lang="und">Post-test</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5qAgzqu7SKd/643MIlIsysa" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Rank the following list of ways to change the playground behavior in order of effectiveness from most effective to least effective:</name>
+			<description lang="und">Rank the following list of ways to change the playground behavior in order of effectiveness from most effective to least effective:</description>
+			<interactionType>matching</interactionType>
+			<source>
+				<component>
+					<id>statement_5aaUbLfMXwJ</id>
+					<description lang="und">Drop 6 - Rank 6</description>
+				</component>
+				<component>
+					<id>statement_6jHpOMJXMcI</id>
+					<description lang="und">Drop 5 - Rank 5</description>
+				</component>
+				<component>
+					<id>statement_6bPoIX61sQQ</id>
+					<description lang="und">Drop 4 - Rank 4</description>
+				</component>
+				<component>
+					<id>statement_6kDaGBMbMoQ</id>
+					<description lang="und">Drop 3 - Rank 3</description>
+				</component>
+				<component>
+					<id>statement_6MNreJeM9eq</id>
+					<description lang="und">Drop 2 - Rank 2</description>
+				</component>
+				<component>
+					<id>statement_5c3ZRsRstb4</id>
+					<description lang="und">Drop 1 - Rank 1</description>
+				</component>
+			</source>
+			<target>
+				<component>
+					<id>choice_6PKRoC9T9Zc</id>
+					<description lang="und">Drag 6 controlpositive1 - Teach and practice how to use equipment and how to disagree</description>
+				</component>
+				<component>
+					<id>choice_5xB8Y5mjYYg</id>
+					<description lang="und">Drag 5 controlpunitive2 - Loss of time on playground for arguing or not using equipment correctly</description>
+				</component>
+				<component>
+					<id>choice_5jshTIYZwP7</id>
+					<description lang="und">Drag 4 nocontrol2 - Parents need to teach their children how to respect authority</description>
+				</component>
+				<component>
+					<id>choice_5invB7pjsk8</id>
+					<description lang="und">Drag 3 controlpositive2 - Structure the playground into zones and rotate by grade levels</description>
+				</component>
+				<component>
+					<id>choice_6rZ900zDf50</id>
+					<description lang="und">Drag 2 controlpunitive2 - Give suspensions to students for screaming or fighting</description>
+				</component>
+				<component>
+					<id>choice_6A67Wy6YaNn</id>
+					<description lang="und">Drag 1 nocontrol1 - The students know what to do. They just need to choose to behave</description>
+				</component>
+			</target>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/5k5IeyC8hsE" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Results</name>
+			<description lang="und">Results</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/6TNUmJcD7sb" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Conclusion</name>
+			<description lang="und">Conclusion</description>
+		</activity>
+		<activity id="http://MiMTSSCafeteria/66qCyhz7DOB" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Without PBIS Q 1</name>
+			<description lang="und">Without PBIS Q 1</description>
+		</activity>
+	</activities>
+</tincan>
